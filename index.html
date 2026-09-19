@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planos de Sessão com MAA e TDIC</title>
+  <meta name="description" content="Recursos e checklist interativo da capacitação do Colégio Militar de Santa Maria.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%2310243e'/%3E%3Cpath d='M13 18h38v6H13zm0 11h28v6H13zm0 11h20v6H13z' fill='%23e7b82f'/%3E%3Cpath d='m42 37 5 5 10-13' fill='none' stroke='%2342b7c8' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>
+    :root{--navy:#10243e;--blue:#1f5a94;--cyan:#42b7c8;--gold:#e7b82f;--cream:#f5f1e7;--ink:#172235;--muted:#627086;--line:#d3dde4;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#edf2f5;line-height:1.55}
+    .top{background:var(--navy);color:white;border-bottom:6px solid var(--gold)} .hero{max-width:1180px;margin:auto;padding:42px 24px 48px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}
+    .eyebrow{color:var(--gold);font-weight:800;letter-spacing:.08em;font-size:.9rem}.hero h1{font-size:clamp(2.1rem,5vw,4rem);line-height:1.05;margin:.45rem 0 1rem;max-width:850px}.hero p{color:#cbdce7;font-size:1.1rem;max-width:760px;margin:0}.meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.pill{border:1px solid #41617e;border-radius:99px;padding:7px 13px;color:#e9f2f7;font-size:.9rem}.crest{width:130px;filter:drop-shadow(0 12px 18px #06152666)}
+    main{max-width:1180px;margin:-22px auto 0;padding:0 24px 64px}.panel{background:white;border:1px solid var(--line);border-radius:20px;box-shadow:0 14px 35px #10243e12;padding:clamp(22px,4vw,38px);margin-bottom:24px}.panel h2{font-size:1.6rem;margin:0 0 8px;color:var(--navy)}.lead{color:var(--muted);margin:0 0 24px}
+    .progress-wrap{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;margin:18px 0}.bar{height:12px;border-radius:99px;background:#e5edf2;overflow:hidden}.bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cyan),var(--blue));transition:.25s}.score{font-weight:800;color:var(--blue)}
+    .checklist{display:grid;gap:12px}.item{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fbfcfd;cursor:pointer;transition:.18s}.item:hover{border-color:#9db7ca;transform:translateY(-1px)}.item input{width:22px;height:22px;accent-color:var(--blue);margin-top:2px}.item strong{display:block;color:var(--navy);font-size:1rem}.item span{color:var(--muted);font-size:.93rem}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{appearance:none;border:0;border-radius:10px;padding:11px 16px;font-weight:750;font-size:.95rem;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}.primary{background:var(--blue);color:white}.secondary{background:#eaf2f7;color:var(--navy)}.btn:focus-visible,.item:focus-within{outline:3px solid #42b7c866;outline-offset:2px}
+    .feedback{margin-top:18px;padding:14px 16px;border-left:5px solid var(--gold);background:#fff9e5;border-radius:8px;font-weight:650;display:none}.feedback.show{display:block}
+    .resources{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;min-height:210px}.card .tag{font-size:.78rem;font-weight:800;color:var(--blue);letter-spacing:.07em}.card h3{margin:8px 0;font-size:1.15rem}.card p{color:var(--muted);font-size:.92rem;flex:1}.card a{color:var(--blue);font-weight:800;text-decoration:none}.card a:hover{text-decoration:underline}
+    .flow{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:20px}.step{background:var(--navy);color:white;border-radius:13px;padding:16px 10px;text-align:center;min-height:105px}.step b{display:block;color:var(--gold);font-size:1.25rem}.step span{font-size:.83rem}
+    footer{background:var(--navy);color:#bdcfdb;padding:28px 24px;text-align:center;font-size:.9rem} footer strong{color:white}
+    @media(max-width:850px){.hero{grid-template-columns:1fr}.crest{width:95px;grid-row:1}.resources{grid-template-columns:1fr}.flow{grid-template-columns:repeat(2,1fr)}main{margin-top:0;padding-top:20px}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">COLÉGIO MILITAR DE SANTA MARIA</div>
+        <h1>Planos de Sessão com MAA e TDIC</h1>
+        <p>Recursos digitais e checklist para transformar objetivos pedagógicos em experiências ativas, coerentes e avaliáveis.</p>
+        <div class="meta"><span class="pill">Outubro de 2026</span><span class="pill">10 horas</span><span class="pill">Ambiente virtual</span><span class="pill">1º Sgt Gularte</span></div>
+      </div>
+      <img class="crest" src="brasao-cmsm.png" alt="Símbolo do Colégio Militar de Santa Maria">
+    </div>
+  </header>
+
+  <main>
+    <section class="panel" id="checklist">
+      <h2>Checklist digital do Plano de Sessão</h2>
+      <p class="lead">Marque os itens atendidos. O progresso fica salvo neste dispositivo.</p>
+      <div class="progress-wrap"><div class="bar" aria-hidden="true"><span id="bar"></span></div><div class="score" id="score">0 de 8</div></div>
+      <div class="checklist" id="checks">
+        <label class="item"><input type="checkbox"><span><strong>Contexto delimitado</strong><span>Público, assunto, duração e condições de execução estão definidos.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Objetivo observável</strong><span>O objetivo descreve o que o participante deverá demonstrar.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Evidência de aprendizagem</strong><span>Existe um produto, resposta ou desempenho que permite verificar o objetivo.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Metodologia ativa</strong><span>A ação do participante está descrita e adequada ao objetivo.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Duas TDIC com função</strong><span>Cada ferramenta tem finalidade pedagógica explicitada.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Avaliação e retificação</strong><span>O plano prevê como avaliar e o que retomar diante das dificuldades.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Viabilidade e flexibilidade</strong><span>Tempo e recursos são realistas, com alternativa para indisponibilidade tecnológica.</span></span></label>
+        <label class="item"><input type="checkbox"><span><strong>Coerência global</strong><span>Objetivo, atividade, MAA, TDIC e avaliação apontam para a mesma aprendizagem.</span></span></label>
+      </div>
+      <div class="actions"><button class="btn primary" id="evaluate">Avaliar meu plano</button><button class="btn secondary" id="reset">Limpar checklist</button></div>
+      <div class="feedback" id="feedback" role="status"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Recursos da capacitação</h2>
+      <p class="lead">Consulte, baixe e utilize os materiais durante a oficina de produção.</p>
+      <div class="resources">
+        <article class="card"><div class="tag">APOSTILA</div><h3>Guia de estudo e produção</h3><p>Planejamento, T 21-250, metodologias ativas, TDIC, avaliação e atividade prática.</p><a href="apostila.pdf" download>Baixar apostila em PDF →</a></article>
+        <article class="card"><div class="tag">INFOGRÁFICO ANIMADO</div><h3>Percurso em seis movimentos</h3><p>Mobilizar, compreender, explorar, planejar, validar e aplicar.</p><a href="infografico.gif">Visualizar infográfico →</a></article>
+        <article class="card"><div class="tag">MODELO T 21-250</div><h3>Plano de Sessão</h3><p>Modelo de referência utilizado para organizar o planejamento da instrução.</p><a href="modelo-t21-250.pdf" download>Baixar modelo em PDF →</a></article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Dinâmica do percurso</h2>
+      <div class="flow"><div class="step"><b>1</b><span>Mobilizar</span></div><div class="step"><b>2</b><span>Compreender</span></div><div class="step"><b>3</b><span>Explorar</span></div><div class="step"><b>4</b><span>Planejar</span></div><div class="step"><b>5</b><span>Validar</span></div><div class="step"><b>6</b><span>Aplicar</span></div></div>
+    </section>
+  </main>
+
+  <footer><strong>Colégio Militar de Santa Maria</strong><br>Capacitação elaborada pelo 1º Sgt Gularte</footer>
+  <script>
+    const inputs=[...document.querySelectorAll('#checks input')], bar=document.querySelector('#bar'), score=document.querySelector('#score'), feedback=document.querySelector('#feedback');
+    const saved=JSON.parse(localStorage.getItem('plano-checklist')||'[]'); inputs.forEach((el,i)=>el.checked=!!saved[i]);
+    function update(){const n=inputs.filter(x=>x.checked).length;score.textContent=`${n} de ${inputs.length}`;bar.style.width=`${n/inputs.length*100}%`;localStorage.setItem('plano-checklist',JSON.stringify(inputs.map(x=>x.checked)));}
+    inputs.forEach(x=>x.addEventListener('change',update)); update();
+    document.querySelector('#evaluate').addEventListener('click',()=>{const n=inputs.filter(x=>x.checked).length;feedback.classList.add('show');feedback.textContent=n===8?'Plano pronto para a revisão final: todos os critérios essenciais foram contemplados.':n>=6?'Boa estrutura. Revise os itens ainda não marcados antes da entrega.':n>=3?'O plano está em construção. Priorize coerência, evidências e função das TDIC.':'Retome o objetivo e a evidência de aprendizagem antes de escolher as ferramentas.';});
+    document.querySelector('#reset').addEventListener('click',()=>{inputs.forEach(x=>x.checked=false);feedback.classList.remove('show');update();});
+  </script>
+</body>
+</html>
